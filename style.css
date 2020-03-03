@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{}
+.menu>ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.menu>ul>li{
+    position: relative;
+   justify-content: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    padding: 15px 25px;
+    background: black;
+    color: white;
+    display: block;
+    margin: 0px 2px;
+}
+.menu>ul>li>a:hover{
+    background: orange;
+    color: white;
+}
